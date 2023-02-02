@@ -17,9 +17,8 @@ def prediction(age, sex, bmi, children, smoker):
 
 def main():
     st.title("Aplikasi Prediksi Asuransi dengan Algoritma Linier Regression")
-    st.markdown('Nama : Saskia Bintang Maharani | NIM : 2019230047')
+    st.markdown('Dwi Putri Atikah Sari | 2019230072')
     st.write('\n')
-    st.markdown('Silakan isi form berikut terlebih dahulu :')
     
     st.write('\n')
     age = st.number_input("Age", 0)
